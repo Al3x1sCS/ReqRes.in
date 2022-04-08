@@ -8,5 +8,10 @@
 import Foundation
 
 class UserPages: Codable {
-    var  data: [UserModel]    
+   var page: Int?
+        /*"per_page": 6,
+        "total": 12,
+        "total_pages": 2,*/
+    
+    var  data: [UserModel]
 }

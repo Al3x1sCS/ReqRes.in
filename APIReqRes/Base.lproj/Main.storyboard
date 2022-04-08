@@ -17,11 +17,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="celulaReuso" rowHeight="253" id="d3d-6J-qKf">
-                                <rect key="frame" x="0.0" y="44.5" width="414" height="253"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="celulaReuso" rowHeight="133" id="d3d-6J-qKf">
+                                <rect key="frame" x="0.0" y="44.5" width="414" height="133"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="d3d-6J-qKf" id="tnz-mA-rWM">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="253"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="133"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -32,15 +32,9 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Users" id="WTE-dr-sED">
-                        <barButtonItem key="rightBarButtonItem" style="plain" id="1Ym-73-drL">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="5Yz-K2-dg9">
-                                <rect key="frame" x="302" y="5" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="plus" catalog="system" title=""/>
-                            </button>
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="QiF-wB-2uI">
                             <connections>
-                                <segue destination="BYZ-38-t0r" kind="show" id="3UZ-Ks-kiz"/>
+                                <segue destination="BYZ-38-t0r" kind="show" id="gD4-yT-4P6"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -85,7 +79,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="plus" catalog="system" width="128" height="113"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
